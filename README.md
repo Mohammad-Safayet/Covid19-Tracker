@@ -1,6 +1,6 @@
 <h1 >
   <a href="https://github.com/Mohammad-Safayet/Covid19-Tracker/">
-    <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/logo.png" width=150>
+    <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/logo.png" width=48>
   </a>
   Covid Tracker
 </h1>
@@ -19,7 +19,7 @@
 - Sorted list of the countries based on cases, deaths, recovered and more
 - Location based daily overview
 
-  <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/app.gif" />
+  <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/app.gif" width="411" height="821"/>
 
 ## Credits
 
