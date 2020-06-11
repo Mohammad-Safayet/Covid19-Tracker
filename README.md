@@ -4,10 +4,7 @@
 
 ## Screenshots
 
-<img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-no-loc.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-loc.png" width=250>
-<img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-stats.png" width=48><img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/countries.png" width=48>
-<img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats.png">
-<img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats-2.png" width=48><img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/continent.png">
+<img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-no-loc.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-loc.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-stats.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/countries.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats-2.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/continent.png" width=250>
 
 ## Features
 
