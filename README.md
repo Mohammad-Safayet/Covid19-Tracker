@@ -4,12 +4,12 @@
 
 ## Screenshots
 
-![Home page when location is off](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-no-loc.png)
-![Home page when location is on](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-loc.png)
-![Home page stats](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-stats.png)
-![World page](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/countries.png)
+![Home page when location is off](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-no-loc.png =250x)
+![Home page when location is on](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-loc.png =250x)
+![Home page stats](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-stats.png =250x)
+![World page](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/countries.png =250x)
 ![Stats page 1](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats.png)
-![Stats page 2](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats-2.png)
+![Stats page 2](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats-2.png =250x)
 ![Continent Page](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/continent.png)
 
 ## Features
