@@ -2,6 +2,17 @@
 
     A Flutter application that retrieves and shows real time data about covid19 in user country and worldwide.
 
+## Screenshots
+![Home page when location is off](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/home-no-loc.png)
+![Home page when location is on](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/home-loc.png)
+![Home page stats](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/home-stats.png)
+![World page](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/countries.png)
+![Stats page 1](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/stats.png)
+![Stats page 2](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/stats-2.png)
+![Continent Page](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/continent.png)
+
+
+
 ## Features
 
 - Display realtime number of covid19 cases, deaths and recovered people from countries and worldwide
@@ -16,7 +27,7 @@
 
 - Johns Hopkins University Center for Systems Science and Engineering ([JHU CSSE](https://github.com/CSSEGISandData/COVID-19))
 
-- Worldometers [Worldometers](https://www.worldometers.info/coronavirus/)
+- [Worldometers](https://www.worldometers.info/coronavirus/)
 
 ### API
 
