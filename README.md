@@ -3,15 +3,14 @@
     A Flutter application that retrieves and shows real time data about covid19 in user country and worldwide.
 
 ## Screenshots
-![Home page when location is off](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/home-no-loc.png)
-![Home page when location is on](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/home-loc.png)
-![Home page stats](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/home-stats.png)
-![World page](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/countries.png)
-![Stats page 1](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/stats.png)
-![Stats page 2](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/stats-2.png)
-![Continent Page](https://github.com/Mohammad-Safayet/Covid19-Tracker/screenshots/continent.png)
 
-
+![Home page when location is off](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-no-loc.png)
+![Home page when location is on](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-loc.png)
+![Home page stats](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-stats.png)
+![World page](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/countries.png)
+![Stats page 1](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats.png)
+![Stats page 2](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats-2.png)
+![Continent Page](https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/continent.png)
 
 ## Features
 
