@@ -1,4 +1,5 @@
-# Covid Tracker
+<img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-no-loc.png" width=120>
+## Covid Tracker
 
     A Flutter application that retrieves and shows real time data about covid19 in user country and worldwide.
 
@@ -13,6 +14,8 @@
 - Cases, deaths, recovered chart for Continents
 - Sorted list of the countries based on cases, deaths, recovered and more
 - Location based daily overview
+
+  <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="852" height="480" />
 
 ## Credits
 
