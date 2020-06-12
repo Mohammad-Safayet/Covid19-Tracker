@@ -1,6 +1,6 @@
 <h1 >
   <a href="https://github.com/Mohammad-Safayet/Covid19-Tracker/">
-    <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/logo.png" width=48>
+    <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/logo.png" width=43>
   </a>
   Covid Tracker
 </h1>
