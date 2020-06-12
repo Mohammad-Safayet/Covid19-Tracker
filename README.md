@@ -13,7 +13,6 @@
 
 ## Instalation guide
 
-Because the current rules imposed by google on the play store, we cant publish this app on it.
 To get this app an install it on your android follow one of the next steps.
 
 1.  Get on Github [Releases](https://github.com/Mohammad-Safayet/Covid19-Tracker/releases)
