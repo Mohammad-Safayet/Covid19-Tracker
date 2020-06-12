@@ -11,6 +11,14 @@
 
 <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-no-loc.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-loc.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/home-stats.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/countries.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/stats-2.png" width=250> <img src="https://github.com/Mohammad-Safayet/Covid19-Tracker/blob/master/screenshots/continent.png" width=250>
 
+## Instalation guide
+
+Because the current rules imposed by google on the play store, we cant publish this app on it.
+To get this app an install it on your android follow one of the next steps.
+
+1.  Get on Github [Releases](https://github.com/Mohammad-Safayet/Covid19-Tracker/releases)
+2.  You can fork or clone this project and run a default flutter build.
+
 ## Features
 
 - Display realtime number of covid19 cases, deaths and recovered people from countries and worldwide
@@ -42,11 +50,3 @@
 - [charts_flutter](https://pub.dev/packages/charts_flutter) - for showing the charts
 - [url_launcher](https://pub.dev/packages/url_launcher) - display the web page (about page only)
 - [intl](https://pub.dev/packages/intl) - converting the numbers
-
-<!-- ## Instalation guide
-Because the current rules imposed by google on the play store, we cant publish this app on it.
-To get this app an install it on your android follow one of the next steps.
-
- 1. Get on Github [Releases](https://github.com/lucioeduardo/covid19_tracker/releases)
- 2. Get on [Aptoide](https://github-lucioeduardo-corona-data.br.aptoide.com/app)
- 3. You can fork or clone this project and run a default flutter build. -->
