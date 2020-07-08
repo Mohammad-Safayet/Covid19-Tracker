@@ -161,6 +161,12 @@ class _WorldPageState extends State<WorldPage> {
                                             text = 'Total Cases';
                                             value = countryProvider
                                                 .filteredCountries[index].cases;
+                                          } else if (state ==
+                                              'todayRecovered') {
+                                            text = 'New Recovered';
+                                            value = countryProvider
+                                                .filteredCountries[index]
+                                                .todayRecovered;
                                           } else if (state == 'todayDeaths') {
                                             text = 'New Deaths';
                                             value = countryProvider

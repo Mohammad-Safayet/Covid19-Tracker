@@ -125,7 +125,7 @@ class _ContinentStatPageState extends State<ContinentStatPage> {
                 valueColor: AlwaysStoppedAnimation<Color>(kBorderColor),
               ),
             )
-          : (stat.notifierState == NotifierState.NotFound)
+          : (stat.notifierState == NotifierState.Failed)
               ? Center(
                   child: Column(
                     children: <Widget>[

@@ -145,7 +145,7 @@ class _CountryOverviewCardState extends State<CountryOverviewCard> {
         color: Color(0xFF1D1E33),
         // color: Colors.white,
       ),
-      height: (_isOpen) ? widget.height : widget.height * 0.12,
+      height: (_isOpen) ? widget.height : 60.0,
       child: SingleChildScrollView(
         physics: NeverScrollableScrollPhysics(),
         child: Column(

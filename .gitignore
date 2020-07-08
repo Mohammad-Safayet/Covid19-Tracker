@@ -39,6 +39,7 @@ lib/generated_plugin_registrant.dart
 
 assets/
 flutter_*.log
+.metadata
 
 **/android/**/gradle-wrapper.jar
 **/android/.gradle

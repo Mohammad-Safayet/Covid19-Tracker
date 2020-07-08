@@ -39,9 +39,7 @@ class _HomeLineChartCardState extends State<HomeLineChartCard> {
     final position = renderBox.localToGlobal(Offset.zero);
 
     setState(() {
-      (_isOpen)
-          ? widget.func(0.0)
-          : widget.func(position.dy + widget.height);
+      (_isOpen) ? widget.func(0.0) : widget.func(position.dy + widget.height);
       _isOpen = !_isOpen;
     });
   }
@@ -154,7 +152,7 @@ class _HomeLineChartCardState extends State<HomeLineChartCard> {
           color: Color(0xFF1D1E33),
           // color: Colors.white,
         ),
-        height: (_isOpen) ? widget.height : widget.height * 0.12,
+        height: (_isOpen) ? widget.height : 60.0,
         width: MediaQuery.of(context).size.width,
         child: SingleChildScrollView(
           physics: NeverScrollableScrollPhysics(),

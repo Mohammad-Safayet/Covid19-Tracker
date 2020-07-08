@@ -12,6 +12,7 @@ enum Catagories {
   Recovered,
   TodayDeaths,
   TodayCases,
+  TodayRecovered,
 }
 
 List<String> states = [
@@ -22,6 +23,7 @@ List<String> states = [
   'recovered',
   'todayCases',
   'todayDeaths',
+  'todayRecovered',
 ];
 
 List<String> data = [
@@ -32,10 +34,10 @@ List<String> data = [
   'Recovered',
   'New Cases',
   'New Deaths',
+  'New Recovered',
 ];
 
 class CovidDropDownMenu extends StatefulWidget {
-
   @override
   _CovidDropDownMenuState createState() => _CovidDropDownMenuState();
 }
@@ -56,7 +58,7 @@ class _CovidDropDownMenuState extends State<CovidDropDownMenu> {
   void changeTheValue(Catagories value) async {
     await Provider.of<CountryProvider>(context, listen: false)
         .getTheCountries(states[value.index]);
-    
+
     setState(() {
       selected = data[value.index];
       selectedCatagory = value;
@@ -67,7 +69,6 @@ class _CovidDropDownMenuState extends State<CovidDropDownMenu> {
   @override
   Widget build(BuildContext context) {
     return DropdownButton<Catagories>(
-      
       value: selectedCatagory,
       icon: Icon(
         Icons.arrow_drop_down,

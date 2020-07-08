@@ -73,7 +73,9 @@ class CovidCardInfo extends StatelessWidget {
                               ? " +" + formatNumber(value)
                               : " " + formatNumber(value),
                           style: TextStyle(
-                            color: (this.value > 0 && this.text != 'Recovered')
+                            color: (this.value > 0 &&
+                                    (this.text != 'Recovered' &&
+                                        this.text != 'New Recovered'))
                                 ? Colors.red
                                 : Colors.green,
                             fontFamily: "Oxanium",

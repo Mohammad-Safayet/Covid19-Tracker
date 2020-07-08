@@ -22,7 +22,7 @@ class StatTimeSeriesChart extends StatelessWidget {
       primaryMeasureAxis: charts.NumericAxisSpec(
         renderSpec: charts.GridlineRendererSpec(
           labelStyle: charts.TextStyleSpec(
-            fontSize: 13,
+            fontSize: (MediaQuery.of(context).size.width * 0.03).floor(),
             fontWeight: "bold",
             color: charts.MaterialPalette.white,
           ),
@@ -36,7 +36,7 @@ class StatTimeSeriesChart extends StatelessWidget {
         showAxisLine: false,
         renderSpec: charts.GridlineRendererSpec(
           labelStyle: charts.TextStyleSpec(
-            fontSize: 12,
+            fontSize: (MediaQuery.of(context).size.width * 0.03).floor(),
             fontWeight: "bold",
             color: charts.MaterialPalette.white,
           ),

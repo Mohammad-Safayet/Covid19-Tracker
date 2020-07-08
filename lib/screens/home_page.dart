@@ -208,7 +208,7 @@ class _HomePageState extends State<HomePage> {
                             if (homeStats != null)
                               HomeLineChartCard(
                                 key: UniqueKey(),
-                                height: height * 0.90,
+                                height: height,
                                 func: _func,
                                 rawData: [
                                   homeStats.cases,

@@ -29,7 +29,6 @@ class ListTimeStampOccurances {
         //     color: charts.ColorUtil.fromDartColor(Colors.amber)
         //   );
         // },
-
         domainFn: (TimeSeriesOccurance occurance, _) => occurance.time,
         measureFn: (TimeSeriesOccurance occurance, _) => occurance.occurances,
         data: data,

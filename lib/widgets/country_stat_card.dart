@@ -153,9 +153,7 @@ class _CountryStatCardState extends State<CountryStatCard> {
         color: Color(0xFF1D1E33),
         // color: Colors.white,
       ),
-      height: (_isOpen)
-          ? MediaQuery.of(context).size.height * 0.85
-          : MediaQuery.of(context).size.height * 0.09,
+      height: (_isOpen) ? MediaQuery.of(context).size.height * 0.85 : 60.0,
       width: MediaQuery.of(context).size.width,
       child: SingleChildScrollView(
         controller: _controller,
@@ -171,7 +169,7 @@ class _CountryStatCardState extends State<CountryStatCard> {
                     height: 20.0,
                   ),
                   LineChartTile(
-                    height: widget.height * 0.90,
+                    height: widget.height,
                     isSelected: _isSelected,
                     onPressed: _onPressed,
                   ),
