@@ -26,6 +26,7 @@ class CovidCardInfo extends StatelessWidget {
         children: <Widget>[
           CircleAvatar(
             maxRadius: 22.0,
+            backgroundColor: kBorderColor,
             backgroundImage: (this.name == 'World')
                 ? AssetImage('assets/images/intFlag.png')
                 : NetworkImage(

@@ -99,36 +99,39 @@ class _CountryOverviewCardState extends State<CountryOverviewCard> {
   @override
   Widget build(BuildContext context) {
     ListLinearOccurance.data = [
-      LinearOccurance(
-          no: 2,
-          occurance: double.parse(
-            ((widget.deaths / widget.cases) * 100).toStringAsFixed(1),
-          ),
-          str: "Deaths",
-          arcColor: charts.ColorUtil.fromDartColor(
-            Colors.red[800],
-          ),
-          fontSize: (MediaQuery.of(context).size.width * 0.037).floor()),
-      LinearOccurance(
-          no: 0,
-          occurance: double.parse(
-            ((widget.active / widget.cases) * 100).toStringAsFixed(1),
-          ),
-          str: "Active",
-          arcColor: charts.ColorUtil.fromDartColor(
-            Color(0xFFFFB166),
-          ),
-          fontSize: (MediaQuery.of(context).size.width * 0.037).floor()),
-      LinearOccurance(
-          no: 12,
-          occurance: double.parse(
-            ((widget.recovered / widget.cases) * 100).toStringAsFixed(1),
-          ),
-          str: 'Recovered',
-          arcColor: charts.ColorUtil.fromDartColor(
-            Colors.green[800],
-          ),
-          fontSize: (MediaQuery.of(context).size.width * 0.037).floor()),
+      if (widget.deaths != 0)
+        LinearOccurance(
+            no: 2,
+            occurance: double.parse(
+              ((widget.deaths / widget.cases) * 100).toStringAsFixed(1),
+            ),
+            str: "Deaths",
+            arcColor: charts.ColorUtil.fromDartColor(
+              Colors.red[800],
+            ),
+            fontSize: (MediaQuery.of(context).size.width * 0.037).floor()),
+      if (widget.active != 0)
+        LinearOccurance(
+            no: 0,
+            occurance: double.parse(
+              ((widget.active / widget.cases) * 100).toStringAsFixed(1),
+            ),
+            str: "Active",
+            arcColor: charts.ColorUtil.fromDartColor(
+              Color(0xFFFFB166),
+            ),
+            fontSize: (MediaQuery.of(context).size.width * 0.037).floor()),
+      if (widget.recovered != 0)
+        LinearOccurance(
+            no: 12,
+            occurance: double.parse(
+              ((widget.recovered / widget.cases) * 100).toStringAsFixed(1),
+            ),
+            str: 'Recovered',
+            arcColor: charts.ColorUtil.fromDartColor(
+              Colors.green[800],
+            ),
+            fontSize: (MediaQuery.of(context).size.width * 0.037).floor()),
     ];
 
     return AnimatedContainer(

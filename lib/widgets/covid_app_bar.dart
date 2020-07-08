@@ -24,14 +24,19 @@ class CovidAppBar extends StatelessWidget implements PreferredSizeWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Text(
-              '${this.title}',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 22.0,
-                fontFamily: "JosefinSlab",
-                fontWeight: FontWeight.bold,
-                letterSpacing: 5.0,
+            Container(
+              width: MediaQuery.of(context).size.width * 0.75,
+              child: Text(
+                '${this.title}',
+                overflow: TextOverflow.ellipsis,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 22.0,
+                  fontFamily: "JosefinSlab",
+                  fontWeight: FontWeight.bold,
+                  letterSpacing: 5.0,
+                ),
+                // overflow: TextOverflow.ellipsis,
               ),
             ),
             this.appBarWidget,

@@ -28,7 +28,7 @@ class OverviewDougnutChart extends StatelessWidget {
         ),
         defaultRenderer: charts.ArcRendererConfig(
           arcWidth: 55,
-          startAngle: 60,
+          startAngle: 145,
           strokeWidthPx: 0,
           arcRendererDecorators: [
             charts.ArcLabelDecorator(
